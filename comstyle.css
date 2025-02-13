@@ -64,13 +64,14 @@ img{
 
 
 .col-md-6 ,.col-12 p{
-    padding: 5px;
+    
+    padding: 25px;
+    line-height: 1.7;
     word-spacing: normal;
     color: var(--other-color);
-    /* background-color: rgba(117,50,251,0.15);
-    border: 1px solid rgba(117, 47, 255, 0.3); */
     font-size: 1.5rem;
     font-weight: 500;
+    margin-bottom: 15px;
     
 }
 span{
@@ -86,6 +87,7 @@ span{
 .bg-color{
     background-color: rgba(208, 117, 236, 0.35);
     border: 1px solid rgba(117, 47, 255, 0.5);
+    background-origin: padding-box;
 }
 .tx-color{
     color: #d129c3d0;
