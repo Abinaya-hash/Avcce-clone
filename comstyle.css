@@ -12,7 +12,7 @@
     --bg-color:#fdfdfd;
     --text-color: #333;
     --main-color:#d129c3d0;
-    --other-color:#48474c;
+    --other-color:#365066;
     --white-color:#fdfdfd;
     --shadow-color:rgba(0, 0 ,0, .2);
 }
@@ -25,32 +25,6 @@ body{
 }
 
 
-.header{
-    padding: 2px 4%;
-}
-
-.logo{
-    font-size: 2.1rem;
-    color:blue;
-    font-weight: 50;
-    cursor: default;
-    margin-right: auto;
-    text-decoration: none;
-
-}
-
-.navbar a{
-    padding: 15px;
-    font-size: 1.7rem;
-    background-color:var(--main-color) ;
-    width: 100%;
-    height: 60px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-}
-
 img{
     padding: 2rem;
     padding-top: 6rem;
@@ -60,21 +34,41 @@ img{
 }
 
 .col-md-6 h1{
-    
+    /* display: 1; */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 3px;
-    font-size: 3.2rem;
     font-weight: 700;
     margin-bottom: .3rem;
     color: var(--other-color);
     
 }
-.col-md-6 p{
+
+.col-12{
+    padding: 3px;
+    padding-top: 8rem;
+}
+.col-12 h3{
+    text-align: center;
+    line-height: 1.3;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+
+.col-md-6 h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+
+.col-md-6 ,.col-12 p{
     padding: 5px;
     word-spacing: normal;
     color: var(--other-color);
+    /* background-color: rgba(117,50,251,0.15);
+    border: 1px solid rgba(117, 47, 255, 0.3); */
     font-size: 1.5rem;
     font-weight: 500;
     
@@ -89,3 +83,22 @@ span{
     font-weight: 500;
 }
 
+.bg-color{
+    background-color: rgba(208, 117, 236, 0.35);
+    border: 1px solid rgba(117, 47, 255, 0.5);
+}
+.tx-color{
+    color: #d129c3d0;
+}
+
+h4{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.forme P{
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
